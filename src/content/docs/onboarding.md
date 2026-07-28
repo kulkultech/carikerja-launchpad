@@ -1,0 +1,41 @@
+---
+title: Program Onboarding
+description: Get started with the Carikerja Launchpad program.
+---
+
+Welcome to the **Carikerja Launchpad**! This is a unique, community-driven, and facilitated learning experience designed to help junior engineers transition into high-performing, self-employed consultants, freelancers, or service business founders.
+
+---
+
+## 💡 About Our Program
+
+The Carikerja Launchpad is a **peer-to-peer facilitated learning journey**. It is an intensive program where you'll learn how to bypass traditional employment, market your skills, find clients, and generate revenue on your own.
+
+*   **Mentorship:** You will learn alongside other builders, reviewing each other's code, discussing pricing designs, and practicing client pitches. You will be facilitated by our experienced team members.
+*   **Time Commitment:** This is a dedicated learning program. We expect our participants to commit at least **3 months** with at least **20 hours per week** of active contribution, learning, and client outreach.
+*   **The Unbankruptable Focus:** We want to make engineers "unbankruptable." You will learn to use AI as a force multiplier to design systems, write code, and also build a personal brand, scope value-based contracts, and pitch to clients.
+
+---
+
+## 💼 Launchpad Key Modules
+
+We focus on building key freelance and service business capabilities:
+
+*   **Personal Branding:** Building an engineering portfolio, establishing a strong LinkedIn presence, and writing case studies.
+*   **Client Acquisition:** Cold outreach, professional networking, and closing service deals.
+*   **Service Delivery:** Scoping project requirements, pricing strategies (value-based vs. hourly), and managing client expectations.
+*   **Trial Run:** The ultimate graduation challenge where you secure your first freelance client.
+
+---
+
+## 🏃‍♂️ The First Step: Social Coding & Scoping
+
+To join the cohort and gain access to projects, you must complete the **10-Step Onboarding Challenge**. 
+
+This challenge serves as a showcase of your capabilities and git etiquette. It acts as our practical screening process:
+1. **GitHub Setup:** Register and get active in our repositories.
+2. **Coding Agents Setup:** Learn to set up coding agents like Antigravity IDE and configure them securely.
+3. **Sandbox Application:** Build and debug a client scoping calculator and lead manager in our *Client & Scope Manager* sandbox.
+4. **Wiki PR:** Submit your profile page to our Launchers Directory.
+
+Ready to begin? Head over to the [10-Step Challenge](/challenge/) to start!
