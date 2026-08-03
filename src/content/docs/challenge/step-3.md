@@ -36,3 +36,4 @@ Use your AI assistant to quickly analyze client friction points and design solut
     
     Task: Draft a simple architectural outline summarizing the technical flow, estimated integration complexity (easy, moderate, hard), and potential API/service costs (e.g., SendGrid, Vercel free tiers).
     ```
+**Post a message in the Discord channel saying you have completed the installation. Don't forget to attach a screenshot of your completed setup**
