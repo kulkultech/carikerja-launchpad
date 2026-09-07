@@ -57,3 +57,35 @@ import { SHOW_DRAFT_BANNER } from '../config';
 		}
 	}
 </style>
+
+<script is:inline>
+	const applyExternalLinkBehavior = () => {
+		for (const anchor of document.querySelectorAll('a[href]')) {
+			const href = anchor.getAttribute('href');
+			if (!href) continue;
+
+			let url;
+			try {
+				url = new URL(href, window.location.href);
+			} catch {
+				continue;
+			}
+
+			const isHttp = url.protocol === 'http:' || url.protocol === 'https:';
+			if (!isHttp) continue;
+
+			if (url.origin !== window.location.origin) {
+				anchor.setAttribute('target', '_blank');
+				const rel = new Set((anchor.getAttribute('rel') || '').split(/\s+/).filter(Boolean));
+				rel.add('noopener');
+				rel.add('noreferrer');
+				anchor.setAttribute('rel', [...rel].join(' '));
+			} else {
+				anchor.removeAttribute('target');
+			}
+		}
+	};
+
+	applyExternalLinkBehavior();
+	document.addEventListener('astro:page-load', applyExternalLinkBehavior);
+</script>
