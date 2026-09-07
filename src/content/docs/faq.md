@@ -49,3 +49,11 @@ The standard branch workflow is:
    git push origin feature/your-branch-name
    ```
 6. Visit your fork on GitHub and click the green **Compare & pull request** button to submit it.
+
+### Q: How many issues, comments, and pull requests do I need to complete the challenge?
+To complete the 10-Step AI Challenge, you need a minimum of:
+- 6 issues created
+- 6 comments
+- 6 merged pull requests
+
+  
