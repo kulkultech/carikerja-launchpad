@@ -22,7 +22,7 @@ As a launcher, you are no longer a "job candidate" writing code templates. You a
 ### 2. Connect with the Community
 Star our open-source tools and follow the crew to stay aligned with the ecosystem:
 *   ⭐ [Carikerja Launchpad](https://github.com/kulkultech/carikerja-launchpad) — Star this onboarding portal.
-*   💬 **Telegram:** Join the [Kulkul Technology Telegram Chat](https://t.me/kulkultech) for discussions.
+*   💬 **Whatsapp:** Join the [Kulkul Technology Whatsapp Community](https://chat.whatsapp.com/LWGuORpw33pCCLjR0sVRrs) for general discussions.
 *   💬 **Discord:** Join the [Discord Server](https://discord.gg/AYvyGpb7aP) and state your goals in the `#first-steps` channel.
 
 ### 3. Fork and Clone the Launchpad Portal
