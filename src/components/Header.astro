@@ -17,14 +17,14 @@ const shouldRenderSearch =
 <div class="header">
 	<div class="title-wrapper sl-flex">
 		<SiteTitle />
-		<nav aria-label="Organization">
-			<a href="https://www.kulkul.tech/" target="_blank" rel="noopener noreferrer">About KulKul</a>
-		</nav>
 	</div>
 	<div class="sl-flex print:hidden">
 		{shouldRenderSearch && <Search />}
 	</div>
 	<div class="sl-hidden md:sl-flex print:hidden right-group">
+		<nav class="organization-link" aria-label="Organization">
+			<a href="https://www.kulkul.tech/about-us/" target="_blank" rel="noopener noreferrer">About KulKul</a>
+		</nav>
 		<div class="sl-flex social-icons">
 			<SocialIcons />
 		</div>
@@ -53,18 +53,18 @@ const shouldRenderSearch =
 			gap: var(--sl-nav-gap);
 		}
 
-		.title-wrapper nav {
+		.organization-link {
 			flex-shrink: 0;
 			font-size: var(--sl-text-sm);
 		}
 
-		.title-wrapper nav a {
+		.organization-link a {
 			color: var(--sl-color-text-accent);
 			text-decoration: none;
 			white-space: nowrap;
 		}
 
-		.title-wrapper nav a:hover {
+		.organization-link a:hover {
 			color: var(--sl-color-white);
 		}
 
