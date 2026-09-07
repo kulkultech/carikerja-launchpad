@@ -21,7 +21,6 @@ export default defineConfig({
 			social: [
 				{ icon: 'x.com', label: 'X', href: 'https://x.com/kulkultech' },
 				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/kulkul-technology/' },
-				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/AYvyGpb7aP' },
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/kulkultech/carikerja-launchpad' },
 			],
 			sidebar: [
