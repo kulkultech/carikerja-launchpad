@@ -7,13 +7,22 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Carikerja Launchpad',
+			logo: {
+				src: './src/assets/kulkul-mark.png',
+				alt: 'KulKul',
+			},
 			components: {
+				Header: './src/components/Header.astro',
 				PageFrame: './src/components/PageFrame.astro',
 			},
 			editLink: {
 				baseUrl: 'https://github.com/kulkultech/carikerja-launchpad/edit/main/',
 			},
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/kulkultech/carikerja-launchpad' }],
+			social: [
+				{ icon: 'x.com', label: 'X', href: 'https://x.com/kulkultech' },
+				{ icon: 'linkedin', label: 'LinkedIn', href: 'https://www.linkedin.com/company/kulkul-technology/' },
+				{ icon: 'github', label: 'GitHub', href: 'https://github.com/kulkultech/carikerja-launchpad' },
+			],
 			sidebar: [
 				{
 					label: 'Start Here',
