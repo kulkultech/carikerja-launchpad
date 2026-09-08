@@ -59,4 +59,4 @@ git push origin feature/launcher-onboarding
 2. Click **New Pull Request**.
 3. Choose your fork's `feature/launcher-onboarding` branch as the source and the main repository's `main` branch as the target.
 4. Describe the target niche and offerings you selected, and click **Create Pull Request**.
-5. Post your PR link in the Discord `#first-steps` channel and tag `@rrachman`. We will review your profile and schedule your matching check-in!
+5. Post your PR link in the Kulkul.tech's WhatsApp Community [`CariKerja.it Launchpad`](https://chat.whatsapp.com/JJlGlN9Im5JG7AxWD9nw7K?s=cl&p=i&mlu=4&ilr=4) channel. We will review your profile and schedule your matching check-in!
